@@ -151,6 +151,9 @@ void installTranslator()
     case QLocale::Chinese:
         languagePath += "zh_CN.qm";
         break;
+    case QLocale::Japanese:
+        languagePath += "ja_JP.qm";
+        break;
     case QLocale::English:
     default:
         languagePath += "en_US.qm";
